@@ -1,0 +1,1313 @@
+[
+  {
+    "Question": "+++Wie viele Definitionen des Begriffes \u0022Softwarearchitektur\u0022 gibt es?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Genau eine f\u00FCr alle Arten von Systemen."
+      },
+      {
+        "Id": 2,
+        "Text": "Eine f\u00FCr jede Art von Softwaresystem (z.\u00A0B. \u0022eingebettet\u0022, \u0022Echtzeit\u0022, \u0022EntscheIdungsunterst\u00FCtzung\u0022, \u0022Web\u0022, \u0022Batch\u0022, \u2026)"
+      },
+      {
+        "Id": 3,
+        "Text": "Ein Dutzend oder mehr unterschiedliche Definitionen."
+      }
+    ],
+    "CorrectAnswers": [
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      2
+    ]
+  },
+  {
+    "Question": "Welche DREI der folgenden Aspekte werden durch den Begriff \u0022Softwarearchitektur\u0022 abgedeckt?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Komponenten"
+      },
+      {
+        "Id": 2,
+        "Text": "Querschnittskonzepte"
+      },
+      {
+        "Id": 3,
+        "Text": "(interne und externe) Schnittstellen"
+      },
+      {
+        "Id": 4,
+        "Text": "Programmierkonventionen (coding conventions)"
+      },
+      {
+        "Id": 5,
+        "Text": "Hardware-Sizing"
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2,
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      4,
+      5
+    ]
+  },
+  {
+    "Question": "Welche VIER der folgenden Aussagen zu (Querschnitts-) Konzepten sind am zutreffendsten?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Durch die einheitliche Verwendung von Konzepten wird die Kopplung zwischen Bausteinen verringert."
+      },
+      {
+        "Id": 2,
+        "Text": "Durch die Definition von geeigneten Konzepten wird die Mustertreue der Architektur sichergestellt."
+      },
+      {
+        "Id": 3,
+        "Text": "Eine einheitliche Ausnahmebehandlung (Exception Handling) kann man gut erreichen, indem die Architekt:innen mit den Entwickler:innen vor der Implementierung ein geeignetes Konzept vereinbaren."
+      },
+      {
+        "Id": 4,
+        "Text": "F\u00FCr jedes Qualit\u00E4tsziel sollte es ein explizit dokumentiertes Konzept geben."
+      },
+      {
+        "Id": 5,
+        "Text": "Konzepte sind ein Mittel zur Erh\u00F6hung der Konsistenz."
+      },
+      {
+        "Id": 6,
+        "Text": "Ein Konzept kann Einschr\u00E4nkungen f\u00FCr die Umsetzung vieler Bausteine definieren."
+      },
+      {
+        "Id": 7,
+        "Text": "Ein Konzept kann durch einen einzigen Baustein umgesetzt werden."
+      }
+    ],
+    "CorrectAnswers": [
+      3,
+      5,
+      6,
+      7
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Question": "Bei Ihrem Projekt arbeiten drei Architekt:innen und sieben Entwickler:innen an der Dokumentation der Softwarearchitektur. Welche Methoden eignen sich zur Gew\u00E4hrleistung einer konsistenten und zweckm\u00E4\u00DFigen Dokumentation und welche nicht?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Die/der leitende Architekt:in koordiniert die Erstellung der Dokumentation."
+      },
+      {
+        "Id": 2,
+        "Text": "F\u00FCr die Dokumentation werden Identische Vorlagen verwendet."
+      },
+      {
+        "Id": 3,
+        "Text": "Alle Teile der Dokumentation werden automatisch aus dem Quellcode extrahiert."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      3
+    ]
+  },
+  {
+    "Question": "Welche VIER der folgenden Techniken sind am besten zur Darstellung von Abl\u00E4ufen oder Laufzeitverhalten geeignet?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Flussdiagramme"
+      },
+      {
+        "Id": 2,
+        "Text": "Aktivit\u00E4tsdiagramme"
+      },
+      {
+        "Id": 3,
+        "Text": "Darstellung von Screenflows (Abfolge von Benutzerinteraktionen)"
+      },
+      {
+        "Id": 4,
+        "Text": "Sequenzdiagramm"
+      },
+      {
+        "Id": 5,
+        "Text": "Lineares Venn-Diagramm"
+      },
+      {
+        "Id": 6,
+        "Text": "Nummerierte Liste aufeinanderfolgender Schritte"
+      },
+      {
+        "Id": 7,
+        "Text": "Tabellarische Schnittstellenbeschreibung"
+      },
+      {
+        "Id": 8,
+        "Text": "Klassendiagramme"
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      3,
+      5,
+      7,
+      8
+    ]
+  },
+  {
+    "Question": "Welche DREI der folgenden Grunds\u00E4tze gelten f\u00FCr das Testen?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Im Allgemeinen ist es nicht m\u00F6glich, s\u00E4mtliche Fehler eines Systems zu finden."
+      },
+      {
+        "Id": 2,
+        "Text": "Bei Komponenten mit vielen bekannten vorherigen Fehlern sind die Chancen f\u00FCr zus\u00E4tzliche Fehler hoch."
+      },
+      {
+        "Id": 3,
+        "Text": "Durch ausreichendes Testen kann aufgezeigt werden, dass ein Programm fehlerfrei ist"
+      },
+      {
+        "Id": 4,
+        "Text": "Durch Testen kann nur die Existenz von Fehlern aufgezeigt werden, nicht jedoch ihre Abwesenheit."
+      },
+      {
+        "Id": 5,
+        "Text": "Die funktionale Programmierung erlaubt keine automatisierten Tests."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2,
+      4
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      3,
+      5
+    ]
+  },
+  {
+    "Question": "Welche der folgenden Aussagen zum Entwurfsprinzip \u0022Information Hiding\u0022 sind richtig und welche falsch?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Durch die Befolgung des Prinzips \u0022Information HIding\u0022 wird die Flexibilit\u00E4t f\u00FCr \u00C4nderungen erh\u00F6ht."
+      },
+      {
+        "Id": 2,
+        "Text": "Beim Information HIding werden absichtlich Informationen vor Aufrufern oder Konsumenten des Bausteins verborgen."
+      },
+      {
+        "Id": 3,
+        "Text": "Information HIding erschwert das Bottom-Up Vorgehen."
+      },
+      {
+        "Id": 4,
+        "Text": "Information HIding ist abgeleitet vom Ansatz der inkrementellen Verfeinerung entlang des Kontrollflusses."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      3,
+      4
+    ]
+  },
+  {
+    "Question": "Was sind die ZWEI wichtigsten Ziele von Softwarearchitektur?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Verbesserung der Genauigkeit von Mustern in Struktur und Implementierung."
+      },
+      {
+        "Id": 2,
+        "Text": "Erreichung der Qualit\u00E4tsanforderungen auf nachvollziehbare Weise."
+      },
+      {
+        "Id": 3,
+        "Text": "Erm\u00F6glichung von kosteneffizienten Integrations- und Abnahmetests des Systems."
+      },
+      {
+        "Id": 4,
+        "Text": "Erm\u00F6glichung eines grundlegenden Verst\u00E4ndnisses der Strukturen und Konzepte f\u00FCr das Entwicklungsteam und andere Beteiligte."
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      4
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      3
+    ]
+  },
+  {
+    "Question": "Stellen Sie sich vor, Sie sind Softwarearchitekt:in f\u00FCr eine gro\u00DFe und verteilte Gesch\u00E4ftsanwendung im Banken- oder Versicherungsbereich. Welche der folgenden Aussagen sind f\u00FCr diese Situation richtig und welche falsch?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Ihre Architektur sollte so aufgebaut sein, dass h\u00E4ufig vorkommende \u00C4nderungen an den entsprechenden Gesch\u00E4ftsprozessen ohne umfangreiche Umstrukturierungen der Softwarearchitektur m\u00F6glich sind."
+      },
+      {
+        "Id": 2,
+        "Text": "Erforderliche Produktqualit\u00E4ten sollten Ihre architektonischen EntscheIdungen leiten."
+      },
+      {
+        "Id": 3,
+        "Text": "Die Softwarearchitektur kann v\u00F6llig unabh\u00E4ngig von Hardware und Infrastruktur entworfen werden."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      3
+    ]
+  },
+  {
+    "Question": "Was sind Ihre DREI wichtigsten Verantwortlichkeiten als Softwarearchitekt:in in Bezug auf Anforderungen?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Unterst\u00FCtzung der Fachexpert:innen dabei, Qualit\u00E4tsanforderungen konkret und explizit zu formulieren."
+      },
+      {
+        "Id": 2,
+        "Text": "Hilfe bei der Identifizierung von neuen Gesch\u00E4ftsm\u00F6glichkeiten anhand Ihres technischen Know-hows."
+      },
+      {
+        "Id": 3,
+        "Text": "Ablehnung von Anforderungen, die technische Risiken enthalten."
+      },
+      {
+        "Id": 4,
+        "Text": "Umformulierung aller Gesch\u00E4ftsanforderungen, so dass sie f\u00FCr Ihr Entwicklungsteam verst\u00E4ndlich sind."
+      },
+      {
+        "Id": 5,
+        "Text": "\u00DCberpr\u00FCfung der Anforderungen auf technische Machbarkeit."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2,
+      5
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      3,
+      4
+    ]
+  },
+  {
+    "Question": "Sie sind als Architekt:in daf\u00FCr zust\u00E4ndig, ein Altsystem entsprechend den laufenden Betriebsanforderungen am Laufen zu halten. Was sind Ihre DREI wichtigsten Aufgaben?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Verhandlung des Wartungsbudgets f\u00FCr Ihr Team"
+      },
+      {
+        "Id": 2,
+        "Text": "Sicherstellung einer aktuellen Dokumentation des ausgelieferten Systems"
+      },
+      {
+        "Id": 3,
+        "Text": "Analyse der Auswirkungen von neuen Anforderungen auf das aktuelle System"
+      },
+      {
+        "Id": 4,
+        "Text": "Ermunterung der Teammitglieder, neue Programmiersprachen zu lernen"
+      },
+      {
+        "Id": 5,
+        "Text": "Ihren Vorgesetzten technologische Updates zus\u00E4tzlich zu den Gesch\u00E4ftsanforderungen vorschlagen"
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      3,
+      5
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      1,
+      4
+    ]
+  },
+  {
+    "Question": "Welche der folgenden Aussagen zu Architekturentscheidungen sind wahr, welche falsch?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "ArchitekturentscheIdungen m\u00FCssen nie aufgeschrieben werden, da diese bereits dem Entwicklungsteam bekannt sind."
+      },
+      {
+        "Id": 2,
+        "Text": "Architecture Decision Records helfen dabei, EntscheIdungen in ihrem KonText nachzuvollziehen."
+      },
+      {
+        "Id": 3,
+        "Text": "Nachdem man sich f\u00FCr ein zentrales Framework (z.B. Persistenzframework) entschieden hat, darf diese EntscheIdung nicht mehr ge\u00E4ndert werden."
+      },
+      {
+        "Id": 4,
+        "Text": "Qualit\u00E4tsanforderungen helfen ma\u00DFgeblich bei ArchitekturentscheIdungen."
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      4
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      3
+    ]
+  },
+  {
+    "Question": "Geben Sie f\u00FCr jede der folgenden Aussagen an, ob sie richtig oder falsch ist.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Jede Iteration eines agilen Entwicklungsvorgehens kann Auswirkungen auf architektonische GrundsatzentscheIdungen haben."
+      },
+      {
+        "Id": 2,
+        "Text": "Der Gesamtaufwand f\u00FCr Architekturarbeit ist bei iterativen Projekten wesentlich h\u00F6her als bei Wasserfall-Projekten."
+      },
+      {
+        "Id": 3,
+        "Text": "Agile Projekte ben\u00F6tigen keine Architekturdokumente, da das Entwicklungsteam in t\u00E4glichen Standup-Meetings EntscheIdungen kommuniziert."
+      },
+      {
+        "Id": 4,
+        "Text": "Wenn Ihr System aus einer Reihe von Microservices besteht, ist kein zentrales Architekturdokument erforderlich, da jeder Service seine Technologien ausw\u00E4hlen kann."
+      }
+    ],
+    "CorrectAnswers": [
+      1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "Question": "Geben Sie an, welche der folgenden Aussagen zu Projektzielen und Architekturzielen richtig und welche falsch sind.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Projektziele k\u00F6nnen funktionale Anforderungen sowie Qualit\u00E4tsanforderungen umfassen."
+      },
+      {
+        "Id": 2,
+        "Text": "Architekturziele leiten sich von den Qualit\u00E4tsanforderungen f\u00FCr das System oder Produkt ab."
+      },
+      {
+        "Id": 3,
+        "Text": "Stakeholder aus dem Business sollten sich auf Gesch\u00E4ftsziele konzentrieren und sich nicht mit Architekturzielen auseinandersetzen."
+      },
+      {
+        "Id": 4,
+        "Text": "Zur Vermeidung von Konflikten sollten Gesch\u00E4fts- und Architekturziele einander nicht \u00FCberlappen."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      3,
+      4
+    ]
+  },
+  {
+    "Question": "Was bedeutet die Regel \u201Eexplizit, nicht implizit\u201C f\u00FCr die Architekturarbeit? W\u00E4hlen Sie die ZWEI passendsten Antworten aus.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Architekt:innen sollten rekursive Strukturen vermeiden und durch explizite Schleifen ersetzen."
+      },
+      {
+        "Id": 2,
+        "Text": "Architekt:innen sollten die Annahmen, die zu EntscheIdungen f\u00FChren, explizit machen."
+      },
+      {
+        "Id": 3,
+        "Text": "Architekt:innen sollten explizit auf Erl\u00E4uterungen (d.h. Kommentare) in nat\u00FCrlicher Sprache f\u00FCr jeden Baustein bestehen."
+      },
+      {
+        "Id": 4,
+        "Text": "Architekt:innen sollten explizit auf schriftlichen oder zumindest m\u00FCndlichen Begr\u00FCndungen f\u00FCr Aufwandsch\u00E4tzungen der Entwicklung von ihrem Team bestehen."
+      },
+      {
+        "Id": 5,
+        "Text": "Architekt:innen sollten die Voraussetzungen f\u00FCr ihre EntscheIdungen explizit darlegen."
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      5
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "Question": "Kreuzen Sie die DREI zutreffendsten Beispiele f\u00FCr typische Kategorien von Softwaresystemen an.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Batch-System"
+      },
+      {
+        "Id": 2,
+        "Text": "Interaktives Online-System"
+      },
+      {
+        "Id": 3,
+        "Text": "Linn\u00E9s-System"
+      },
+      {
+        "Id": 4,
+        "Text": "Eingebettetes Echtzeitsystem"
+      },
+      {
+        "Id": 5,
+        "Text": "Integrationstestsystem"
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2,
+      4
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      3,
+      5
+    ]
+  },
+  {
+    "Question": "Es gibt zahlreiche Ans\u00E4tze, die zu einer Softwarearchitektur f\u00FChren. Welche DREI der folgenden Ans\u00E4tze kommen in der Praxis am h\u00E4ufigsten vor?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "User-Interface Driven Design"
+      },
+      {
+        "Id": 2,
+        "Text": "Domain-driven Design"
+      },
+      {
+        "Id": 3,
+        "Text": "Sichtenbasierte Architekturentwicklung"
+      },
+      {
+        "Id": 4,
+        "Text": "Bottom-up Design"
+      },
+      {
+        "Id": 5,
+        "Text": "MehrheitsentscheId"
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      3,
+      4
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      5
+    ]
+  },
+  {
+    "Question": "Diverse Architekturentwicklungsmethoden schlagen einen sichtenbasierten Ansatz vor. Welche DREI der folgenden Sichten werden am h\u00E4ufigsten verwendet?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Physische Datenbanksicht"
+      },
+      {
+        "Id": 2,
+        "Text": "KonTextsicht"
+      },
+      {
+        "Id": 3,
+        "Text": "Bausteinsicht oder Komponentensicht"
+      },
+      {
+        "Id": 4,
+        "Text": "Testbasierte Sicht"
+      },
+      {
+        "Id": 5,
+        "Text": "Konfigurationssicht"
+      },
+      {
+        "Id": 6,
+        "Text": "Laufzeitsicht"
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      3,
+      6
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "Question": "Sie dokumentieren einen Baustein einer Softwarearchitektur. Welche ZWEI Informationen sollten in seiner Black-Box-Beschreibung enthalten sein?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "\u00D6ffentliche Schnittstellen"
+      },
+      {
+        "Id": 2,
+        "Text": "Verantwortlichkeiten des Bausteins"
+      },
+      {
+        "Id": 3,
+        "Text": "Interne Struktur des Bausteins"
+      },
+      {
+        "Id": 4,
+        "Text": "Spezifikation von Implementierungsdetails"
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      3,
+      4
+    ]
+  },
+  {
+    "Question": "Welche Voraussetzungen m\u00FCssen vor der Entwicklung einer Softwarearchitektur erf\u00FCllt sein? W\u00E4hlen Sie die ZWEI passendsten Antworten aus.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Die Anforderungsspezifikation f\u00FCr das System ist vollst\u00E4ndig, detailliert und konsistent."
+      },
+      {
+        "Id": 2,
+        "Text": "Die wichtigsten Qualit\u00E4tsanforderungen an das System sind bekannt."
+      },
+      {
+        "Id": 3,
+        "Text": "Die organisatorischen Randbedingungen sind bekannt."
+      },
+      {
+        "Id": 4,
+        "Text": "Die Programmiersprache wurde ausgew\u00E4hlt."
+      },
+      {
+        "Id": 5,
+        "Text": "Die Hardware f\u00FCr das Entwicklungsteam ist verf\u00FCgbar."
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "Question": "Welche Faktoren k\u00F6nnen den Entwurf einer Softwarearchitektur beeinflussen? W\u00E4hlen Sie die DREI passendsten Antworten aus.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Politische"
+      },
+      {
+        "Id": 2,
+        "Text": "Organisatorische"
+      },
+      {
+        "Id": 3,
+        "Text": "Technische"
+      },
+      {
+        "Id": 4,
+        "Text": "Virtuelle"
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2,
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      4
+    ]
+  },
+  {
+    "Question": "Welche der folgenden Eigenschaften l\u00E4sst sich am ehesten durch eine Schichtenarchitektur verbessern?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Laufzeiteffizienz (Performance)"
+      },
+      {
+        "Id": 2,
+        "Text": "Flexibilit\u00E4t bei der Modifizierung oder \u00C4nderung des Systems"
+      },
+      {
+        "Id": 3,
+        "Text": "Flexibilit\u00E4t bei der Laufzeit (Konfigurierbarkeit)"
+      },
+      {
+        "Id": 4,
+        "Text": "Nichtabstreitbarkeit"
+      }
+    ],
+    "CorrectAnswers": [
+      2
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "Question": "F\u00FCr welche Entwurfsprobleme bietet das Pipes \u0026 Filter Pattern L\u00F6sungsans\u00E4tze?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Verwaltung von globalem Anwendungszustand"
+      },
+      {
+        "Id": 2,
+        "Text": "Strukturierung von IT-Systemen die Datenstr\u00F6me verarbeiten"
+      },
+      {
+        "Id": 3,
+        "Text": "Entkopplung von Verarbeitungsschritten"
+      },
+      {
+        "Id": 4,
+        "Text": "Entkopplung von zeitlichen Abh\u00E4ngigkeiten"
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      4
+    ]
+  },
+  {
+    "Question": "Welche Ziele versuchen Sie mit dem Dependency-Inversion-Prinzip zu erreichen?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Gro\u00DFe Bausteine sollen nicht von kleinen Bausteinen abh\u00E4ngen."
+      },
+      {
+        "Id": 2,
+        "Text": "Komponenten sollen in der Lage sein, abh\u00E4ngige Komponenten leichter zu erstellen."
+      },
+      {
+        "Id": 3,
+        "Text": "Bausteine sollen nur \u00FCber Abstraktionen voneinander abh\u00E4ngen."
+      }
+    ],
+    "CorrectAnswers": [
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      2
+    ]
+  },
+  {
+    "Question": "Was sind die Eigenschaften von enger (hoher) bzw. loser (niedriger) Kopplung?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Bausteine k\u00F6nnen abh\u00E4ngige Bausteine direkt, d.h. ohne Umwege \u00FCber Schnittstellen oder Abstraktionen, aufrufen."
+      },
+      {
+        "Id": 2,
+        "Text": "Bausteine verwenden gemeinsame komplexe Datenstrukturen."
+      },
+      {
+        "Id": 3,
+        "Text": "Bausteine verwenden eine gemeinsame Tabelle (f\u00FCr Schreib- und Leseoperationen) innerhalb einer relationalen Datenbank."
+      },
+      {
+        "Id": 4,
+        "Text": "Beim Baustein-Design haben Sie das Dependency-Inversion-Prinzip konsequent umgesetzt."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2,
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      4
+    ]
+  },
+  {
+    "Question": "Welche ZWEI Aussagen zum \u201EDon\u2019t repeat yourself\u201D-Prinzip (DRY) treffen am ehesten zu? Anders gesagt: Was k\u00F6nnte passieren, wenn Teile des Quellcodes oder der Konfiguration im System mehrfach vorhanden sind?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "DRY verringert die Sicherheit."
+      },
+      {
+        "Id": 2,
+        "Text": "Die strenge Einhaltung von DRY k\u00F6nnte zu h\u00F6herer Kopplung f\u00FChren."
+      },
+      {
+        "Id": 3,
+        "Text": "Die Komponenten des Systems mit redundantem Code k\u00F6nnen unabh\u00E4ngig voneinander verbessert werden."
+      },
+      {
+        "Id": 4,
+        "Text": "Die Einhaltung von DRY f\u00FChrt zu einer Verringerung der Angriffsvektoren in der IT-Sicherheit."
+      },
+      {
+        "Id": 5,
+        "Text": "Die Anwendung der Schichtenmuster erm\u00F6glicht eine konsistente Anwendung des DRY-Prinzips."
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      3
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "Question": "Sie k\u00F6nnen Aspekte Ihrer Softwarearchitektur m\u00FCndlich und/oder schriftlich kommunizieren. In welchem Zusammenhang stehen diese M\u00F6glichkeiten zueinander? Geben Sie f\u00FCr jede der folgenden Aussagen an, ob sie richtig oder falsch ist.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "M\u00FCndliche Kommunikation sollte schriftliche Dokumentation erg\u00E4nzen."
+      },
+      {
+        "Id": 2,
+        "Text": "Feedback zu ArchitekturentscheIdungen sollte zur Sicherstellung der Nachverfolgbarkeit grunds\u00E4tzlich schriftlich erfolgen."
+      },
+      {
+        "Id": 3,
+        "Text": "Schriftliche Dokumentation sollte immer m\u00FCndlicher Kommunikation vorausgehen."
+      },
+      {
+        "Id": 4,
+        "Text": "Architekt:innen sollten sich eine Variante (m\u00FCndlich oder schriftlich) aussuchen und w\u00E4hrend der gesamten Entwicklung dabei bleiben."
+      }
+    ],
+    "CorrectAnswers": [
+      1
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "Question": "Welche der folgenden Aussagen zu Notationen f\u00FCr Architektursichten sind richtig und welche falsch?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Business Process Model \u0026 Notation (BPMN) sollte nur von Business-Analysten und nicht zur Architekturdokumentation verwendet werden."
+      },
+      {
+        "Id": 2,
+        "Text": "UML-Verteilungsdiagramme sind die einzige M\u00F6glichkeit zur Dokumentation des Mappings der Softwarekomponenten in Bezug auf die Infrastruktur."
+      },
+      {
+        "Id": 3,
+        "Text": "UML-Paketdiagramme k\u00F6nnen zum Festhalten der Bausteinsicht der Softwarearchitektur verwendet werden."
+      },
+      {
+        "Id": 4,
+        "Text": "Solange die Notation (z. B. mithilfe einer Legende) erl\u00E4utert wird, kann eine beliebige Notation ausreichen, um Bausteinstrukturen und Zusammenarbeit zu beschreiben."
+      }
+    ],
+    "CorrectAnswers": [
+      3,
+      4
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      1,
+      2
+    ]
+  },
+  {
+    "Question": "Welche ZWEI Architektursichten haben die beste praktische Anwendung f\u00FCr die Entwicklung von Softwarearchitekturen?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Pattern-Sicht."
+      },
+      {
+        "Id": 2,
+        "Text": "Beobachtersicht (Observer-View)."
+      },
+      {
+        "Id": 3,
+        "Text": "Bausteinsicht (Komponentensicht)."
+      },
+      {
+        "Id": 4,
+        "Text": "Verteilungssicht."
+      }
+    ],
+    "CorrectAnswers": [
+      3,
+      4
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      2
+    ]
+  },
+  {
+    "Question": "In der Kontextsicht k\u00F6nnen Sie einen gesch\u00E4ftlichen KonText (\u201Ebusiness context\u201C) und einen technischen Kontext verwenden. W\u00E4hlen Sie die ZWEI am besten passenden Antworten f\u00FCr den technischen Kontext aus.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Der technische KonText enth\u00E4lt die physischen \u00DCbertragungskan\u00E4le zwischen Ihrem System und der Umgebung."
+      },
+      {
+        "Id": 2,
+        "Text": "Der technische KonText enth\u00E4lt die gesamte Infrastruktur, \u00FCber die die Komponenten Ihres Systems verteilt werden."
+      },
+      {
+        "Id": 3,
+        "Text": "Der technische KonText sollte die Hardware-Preisliste oder die Preisgestaltung von Cloud-Diensten, die als Infrastruktur f\u00FCr Ihre Architektur verwendet werden, enthalten."
+      },
+      {
+        "Id": 4,
+        "Text": "Der technische KonText enth\u00E4lt Informationen zur gew\u00E4hlten Programmiersprache sowie allen zur Implementierung Ihrer Softwarearchitektur verwendeten Frameworks."
+      },
+      {
+        "Id": 5,
+        "Text": "Der technische KonText enth\u00E4lt gegebenenfalls andere Elemente als der Gesch\u00E4ftskonText (\u0022business conText\u0022)."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      5
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "Question": "Die Dokumentation der Softwarearchitektur sollte Beschreibungen der Querschnittskonzepte enthalten. W\u00E4hlen Sie die ZWEI besten Gr\u00FCnde, warum die Dokumentation von Querschnittskonzepten sinnvoll ist.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Querschnittskonzepte sollten sich auf die Fachdom\u00E4ne konzentrieren und frei von technischen Informationen sein."
+      },
+      {
+        "Id": 2,
+        "Text": "Aspekte oder Konzepte, die in mehreren Teilen Ihrer Softwarearchitektur verwendet werden, sollten auf nicht redundante Weise beschrieben werden."
+      },
+      {
+        "Id": 3,
+        "Text": "Querschnittskonzepte k\u00F6nnen in weiteren Produkten innerhalb der gleichen Organisation erneut verwendet werden."
+      },
+      {
+        "Id": 4,
+        "Text": "Querschnittskonzepte sollten von Spezialist:innen implementiert werden. Daher ist eine separate Dokumentation hilfreich."
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      4
+    ]
+  },
+  {
+    "Question": "Was sind Richtlinien für ein gutes Schnittstellen-Design? Kreuzen Sie an, welche der folgenden Aussagen richtig und welche falsch sind.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Die Verwendung der Schnittstellen sollte einfach zu erlernen sein."
+      },
+      {
+        "Id": 2,
+        "Text": "Es soll möglich sein, angemessen verständlichen Client-Code für diese Schnittstelle zu schreiben."
+      },
+      {
+        "Id": 3,
+        "Text": "Eine Schnittstelle soll Zugriff auf eine umfassende Menge von Implementierungsdetails ermöglichen."
+      },
+      {
+        "Id": 4,
+        "Text": "Schnittstellenspezifikationen sollten funktionale und nichtfunktionale Aspekte enthalten."
+      },
+      {
+        "Id": 5,
+        "Text": "Lokale und entfernte (\"remote\") Aufrufe einer Schnittstelle sollen sich in allen Belangen identisch verhalten."
+      }
+    ],
+    "CorrectAnswers": [ 1, 2, 4 ],
+    "IncorrectAnswers": [ 3, 5 ],
+    "Points": 2
+  },
+  {
+    "Question": "Eine Definition lautet: „Softwarearchitektur ist die Summe aller während der Entwicklung gefällten Entscheidungen“. Kreuzen Sie an, welche der folgenden Aussagen zu Architektur- /Designentscheidungen richtig und welche falsch sind.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Architektonische Entscheidungen können sich in der Struktur der Bausteine oder Komponenten niederschlagen."
+      },
+      {
+        "Id": 2,
+        "Text": "Softwarearchitekt:innen sollten alle Entwurfsentscheidungen schriftlich begründen."
+      },
+      {
+        "Id": 3,
+        "Text": "Architektonische Entscheidungen können untereinander Wechselwirkungen haben."
+      },
+      {
+        "Id": 4,
+        "Text": "Kompromisse zwischen zueinander in Konflikt stehenden Qualitätsanforderungen sollten explizite Entscheidungen sein."
+      }
+    ],
+    "CorrectAnswers": [ 1, 3, 4 ],
+    "IncorrectAnswers": [ 2 ],
+    "Points": 1
+  },
+  {
+    "Question": "Welche der folgenden Aussagen sind typische Gr\u00FCnde zur Einf\u00FChrung einer Architekturdokumentation und welche nicht?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Unterst\u00FCtzung des Onboardings neuer Entwickler:innen."
+      },
+      {
+        "Id": 2,
+        "Text": "Unterst\u00FCtzung der Testautomatisierung des Systems."
+      },
+      {
+        "Id": 3,
+        "Text": "Unterst\u00FCtzung der Arbeit von verteilten Teams."
+      },
+      {
+        "Id": 4,
+        "Text": "Unterst\u00FCtzung von sp\u00E4teren Verbesserungen des Systems."
+      },
+      {
+        "Id": 5,
+        "Text": "Einhaltung regulatorischer Vorgaben."
+      },
+      {
+        "Id": 6,
+        "Text": "Sicherstellung der gleichm\u00E4\u00DFigen Auslastung des Teams."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      2,
+      6
+    ]
+  },
+  {
+    "Question": "Welche der folgenden Eigenschaftspaare stehen \u00FCblicherweise miteinander in Konflikt und welche nicht?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Verst\u00E4ndlichkeit \u2013 Lesbarkeit."
+      },
+      {
+        "Id": 2,
+        "Text": "Benutzerfreundlichkeit \u2013 Sicherheit."
+      },
+      {
+        "Id": 3,
+        "Text": "Laufzeitkonfigurierbarkeit \u2013 Robustheit."
+      },
+      {
+        "Id": 4,
+        "Text": "Sicherheit \u2013 Funktionale Korrektheit."
+      }
+    ],
+    "CorrectAnswers": [
+      2,
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      4
+    ]
+  },
+  {
+    "Question": "ISO 25010 enth\u00E4lt allgemeine Qualit\u00E4tseigenschaften f\u00FCr Softwaresysteme. Wie k\u00F6nnen Qualit\u00E4tsanforderungen zu diesen Eigenschaften konkretisiert werden? W\u00E4hlen Sie die ZWEI besten Alternativen aus.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Durch Entwickeln von UI-Prototypen."
+      },
+      {
+        "Id": 2,
+        "Text": "Durch Definieren expliziter Schnittstellen."
+      },
+      {
+        "Id": 3,
+        "Text": "Durch Erstellen, verfassen oder diskutieren von Szenarien."
+      },
+      {
+        "Id": 4,
+        "Text": "Durch Erstellen automatisierter Tests."
+      },
+      {
+        "Id": 5,
+        "Text": "Durch Erstellen eines Qualit\u00E4tsbaums."
+      }
+    ],
+    "CorrectAnswers": [
+      3,
+      5
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "Question": "Welche vier der folgenden Punkte sind am besten geeignet, die Analyse der Erreichung der Qualit\u00E4tsanforderungen (qualitative Analyse) Ihrer Softwarearchitektur zu unterst\u00FCtzen?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Quantitative Abh\u00E4ngigkeitsanalyse."
+      },
+      {
+        "Id": 2,
+        "Text": "Architekturmodelle."
+      },
+      {
+        "Id": 3,
+        "Text": "Qualit\u00E4tsszenarien."
+      },
+      {
+        "Id": 4,
+        "Text": "Teamgr\u00F6\u00DFe."
+      },
+      {
+        "Id": 5,
+        "Text": "Logdateien."
+      },
+      {
+        "Id": 6,
+        "Text": "Organigramm."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      4,
+      6
+    ]
+  },
+  {
+    "Question": "Sie versuchen, Ihre Architektur qualitativ zu analysieren. Was sind die ZWEI zutreffendsten Anzeichen f\u00FCr architektonische Problembereiche?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Hohe Kopplung der Komponenten."
+      },
+      {
+        "Id": 2,
+        "Text": "Namen \u00F6ffentlicher Methoden geben nicht deren Zweck wieder."
+      },
+      {
+        "Id": 3,
+        "Text": "Fehlende Kommentare."
+      },
+      {
+        "Id": 4,
+        "Text": "H\u00E4ufung von Fehlern in bestimmten Bausteinen des Systems."
+      },
+      {
+        "Id": 5,
+        "Text": "Anzahl der Testf\u00E4lle pro Komponente."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      4
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "Question": "Sie versuchen, Ihre Architektur quantitativ zu untersuchen. Welche der folgenden Gr\u00F6\u00DFen k\u00F6nnen Sie f\u00FCr Ihre Softwarearchitektur zuverl\u00E4ssig messen? W\u00E4hlen Sie die DREI am besten passenden Antworten aus.",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Gr\u00F6\u00DFe der Bausteine (z. B. Lines-of-Code)."
+      },
+      {
+        "Id": 2,
+        "Text": "\u00C4nderungsrate des Quellcodes der Komponenten."
+      },
+      {
+        "Id": 3,
+        "Text": "Koh\u00E4sion der Architekturkomponenten."
+      },
+      {
+        "Id": 4,
+        "Text": "Sicherheitsstufe einer Komponente."
+      },
+      {
+        "Id": 5,
+        "Text": "Anzahl der Personen, die zu einer bestimmten Komponente beigetragen haben."
+      }
+    ],
+    "CorrectAnswers": [
+      1,
+      2,
+      5
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      3,
+      4
+    ]
+  }
+]
