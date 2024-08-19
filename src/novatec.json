@@ -1,0 +1,455 @@
+[
+  {
+    "Question": "In der Greyboxsicht eines Bausteins werden die folgenden Elemente gezeigt:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Schnittstellen"
+      },
+      {
+        "Id": 2,
+        "Text": "Schnittstellen und Attribute eines Bausteins"
+      },
+      {
+        "Id": 3,
+        "Text": "Schnittstellen und technische Schnittstellen"
+      },
+	  {
+        "Id": 4,
+        "Text": "Schnittstellen und innerer Aufbau"
+      }
+    ],
+    "CorrectAnswers": [
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,2,4    
+    ]
+  },
+  {
+    "Question": "Was sind die vier Aufgaben des Softwarearchitekten",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Analysieren / Prüfen / Testen / Beschreiben"
+      },
+      {
+        "Id": 2,
+        "Text": "Planen / Designen / Review / Implementierung"
+      },
+      {
+        "Id": 3,
+        "Text": "Anforderungen und Randbedingungen / Entwurf und Konzeption / Architekturentscheidung / Umsetzung"
+      },
+	  {
+        "Id": 4,
+        "Text": "Anforderungen und Randbedingungen / Entwurf und Konzeption / Umsetzung / Test"
+      }
+    ],
+    "CorrectAnswers": [
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,2,4    
+    ]
+  },
+  {
+    "Question": "Was sind die Architekturebenen des Architekturentwurfs",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Fachliche Architerebene, Technische Architekturebene, Technische Infrastruktur, Architekturstil"
+      },
+      {
+        "Id": 2,
+        "Text": "IT-Infrastruktur, Business-Architektur, Informationsarchitektur, Softwarearchitektur"
+      },
+      {
+        "Id": 3,
+        "Text": "Architekturmuster, Entwurfsmuster, Implementierung, Technische Infrastruktur"
+      },
+	  {
+        "Id": 4,
+        "Text": "Business-Architektur, Architekturstil, Informationsarchitektur,Technische Architekturebene"
+      }
+    ],
+    "CorrectAnswers": [
+      1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      2,3,4    
+    ]
+  },
+  {
+    "Question": "Was sind die Architekturebenen einer Enterprise IT Architektur",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Fachliche Architerebene, Technische Architekturebene, Technische Infrastruktur, Architekturstil"
+      },
+      {
+        "Id": 2,
+        "Text": "IT-Infrastruktur, Business-Architektur, Informationsarchitektur, Softwarearchitektur"
+      },
+      {
+        "Id": 3,
+        "Text": "Architekturmuster, Entwurfsmuster, Implementierung, Technische Infrastruktur"
+      },
+	  {
+        "Id": 4,
+        "Text": "Business-Architektur, Architekturstil, Informationsarchitektur, Technische Architekturebene"
+      }
+    ],
+    "CorrectAnswers": [
+      2
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,3,4    
+    ]
+  },
+  {
+    "Question": "Architekt:innen müssen Bottom Up und Top Down vorgehen. Das bedeutet:",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Iterativ und inkrementelles erarbeiten des Bauplans, Konstruktionswegs"
+      },
+      {
+        "Id": 2,
+        "Text": "Wechselspiel zwischen den Architekturebenen"
+      },
+      {
+        "Id": 3,
+        "Text": "Einflüsse der Ebene mit Projektbeteiligten / Stakeholder diskutieren"
+      },
+	  {
+        "Id": 4,
+        "Text": "todo :0)"
+      }
+    ],
+    "CorrectAnswers": [
+      1,2,3
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      4    
+    ]
+  },
+  {
+    "Question": "Architekturziele sind",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Kurzfristig, weil die Architektur den Projektleiter unterstützt"
+      },
+      {
+        "Id": 2,
+        "Text": "Sind nur zu Beginn des Projektes relevant, bis die Implementierung startet"
+      },
+      {
+        "Id": 3,
+        "Text": "Wirken über den gesamten Lebenszyklus eines Systems und sind von langfristiger Natur"
+      },
+	  {
+        "Id": 4,
+        "Text": "ein Führungsinstrument für die Führungskräfte von Softwarearchitekten / Softwarearchitektur Team / Softwarearchitektur Abteilung"
+      }
+    ],
+    "CorrectAnswers": [
+      3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+      1,2,4    
+    ]
+  },
+   {
+    "Question": "Architekt:innen brauchen sehr gute Fähigkeiten",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "In Kryptografie und Verschlüsselungen"
+      },
+      {
+        "Id": 2,
+        "Text": "Im Umgang mit Menschen"
+      },
+      {
+        "Id": 3,
+        "Text": "Datenbankadministration und Performanceoptimierung"
+      },
+	  {
+        "Id": 4,
+        "Text": "Hacking von IT-Systemen"
+      },  
+	  {
+        "Id": 5,
+        "Text": "Soft Skills, Kommunikation und Teamführung"
+      },
+	  {
+        "Id": 6,
+        "Text": "Im Themengebiet IT Management"
+      }, 
+	  {
+        "Id": 7,
+        "Text": "In ihrer fachlichen und technischen Domäne"
+      },
+	  {
+        "Id": 8,
+        "Text": "In der Analyse und Abstraktion"
+      },
+	  {
+        "Id": 9,
+        "Text": "Im Entwurf von Business-Architekturen"
+      },	
+	  {
+        "Id": 10,
+        "Text": "Im Erstellen von Architektursichten"
+      },
+    ],
+    "CorrectAnswers": [
+      2,5,7,8,10
+    ],
+    "Points": 5,
+    "IncorrectAnswers": [
+     1,3,4,6,9  
+    ]
+  },
+   {
+    "Question": "Welche Schnittstellenarten gibt es? (2Antworten)",
+    "Type": "K",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Nach Innen gerichtete Schnittstelle"
+      },
+      {
+        "Id": 2,
+        "Text": "Standardsschnittstelle"
+      },
+      {
+        "Id": 3,
+        "Text": "HTTP Schnittstelle"
+      },
+	  {
+        "Id": 4,
+        "Text": "Unabhängige Schnittstelle"
+      },  
+	  {
+        "Id": 5,
+        "Text": "Angebotene Schnittstelle"
+      },
+	  {
+        "Id": 6,
+        "Text": "Übertragene Schnittstelle"
+      }, 
+	  {
+        "Id": 7,
+        "Text": "Technische Schnittstelle"
+      }, 
+	  {
+        "Id": 8,
+        "Text": "Angeforderte Schnittstelle"
+      }, 
+	  {
+        "Id": 9,
+        "Text": "Eingeschränkte Schnittstelle"
+      },
+	  {
+        "Id": 10,
+        "Text": "Port-basierte Schnittstelle"
+      },
+    ],
+    "CorrectAnswers": [
+      5,8
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+      1,2,3,4,6,7,9,10    
+    ]
+  },
+   {
+    "Question": "Welche Aussagen bzgl. Bausteine und Schnittstelle sind wahr? (4 Antworten)",
+    "Type": "K",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Schnittstellen managen Bausteine"
+      },
+      {
+        "Id": 2,
+        "Text": "Schnittstellen tragen die Verantwortung eines Baustein nach aussen"
+      },
+      {
+        "Id": 3,
+        "Text": "Ein Baustein kann eine odere mehrere Schnittstellen haben"
+      },
+	  {
+        "Id": 4,
+        "Text": "Eine Schnittstelle definiert einen Vertrag"
+      },  
+	  {
+        "Id": 5,
+        "Text": "Bausteine kommunizieren über Schnittstellen mit anderen Bausteinen"
+      },
+	  {
+        "Id": 6,
+        "Text": "Schnittstellen sind Subbausteine des Bausteins"
+      }
+    ],
+    "CorrectAnswers": [
+      2,3,4,5
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+		1,6
+    ]
+  },
+  {
+    "Question": "Softwarearchitekt:innen (4 Antworten)",
+    "Type": "K",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "sind hauptverantwortlich für den Projektplan"
+      },
+      {
+        "Id": 2,
+        "Text": "müssen mit vielen Stakeholder effektiv interagieren können"
+      },
+      {
+        "Id": 3,
+        "Text": "treffen alle Entscheidung im Bereich der Architektur als Experten alleine"
+      },
+	  {
+        "Id": 4,
+        "Text": "sind Ansprechpartner für das Entwicklungsteam"
+      },  
+	  {
+        "Id": 5,
+        "Text": "implementieren niemals im Entwicklungsprojekt, da diese Rollen strikt getrennt werden sollten"
+      },
+	  {
+        "Id": 6,
+        "Text": "führen das Entwicklungsteam und fördert effektive Architekturarbeit im Team"
+      },
+	  {
+        "Id": 7,
+        "Text": "beraten die Projektleitung bei der Erstellung des Projektplans"
+      }
+    ],
+    "CorrectAnswers": [
+     2,4,6,7
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+		1,3,5
+    ]
+  },
+  {
+    "Question": "Welche Aussage bezüglich Qualität trifft zu (3 Antworten)",
+    "Type": "K",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Fördert die Erweiterbarkeit und Änderbarkeit eines Systems"
+      },
+      {
+        "Id": 2,
+        "Text": "Ist einfach zu implementieren, da die meisten Themen durch Frameworks abgenommen wird"
+      },
+      {
+        "Id": 3,
+        "Text": "Erleichtert das Verstehen der Software"
+      },
+	  {
+        "Id": 4,
+        "Text": "Ist i.d.R. jedem Stakeholder wichtig und elementarer Bestandteil eines Projektes"
+      },  
+	  {
+        "Id": 5,
+        "Text": "Gewünschte Qualitätseigenschaften können durch Qualitätszenarien anschaulich gemacht werden"
+      },
+	  {
+        "Id": 6,
+        "Text": "Qualität muss von Softwarearchitektur oft explizit gemacht werden, da Qualitätsanforderungen selten formuliert werden aber indirekt erwartet werden."
+      }
+    ],
+    "CorrectAnswers": [
+     1,5,6
+    ],
+    "Points": 3,
+    "IncorrectAnswers": [
+		2,3,4
+    ]
+  },
+  {
+    "Question": "Zu welchen andere Rollen steht Architekt:innen in Interaktion während des Projektgeschäfts?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Security / Anwendende / Projektleitung / Analyst / Personal /Technische Mitarbeitende Support"
+      },
+      {
+        "Id": 2,
+        "Text": "Tester:in / Security / Entwickler:in / Betrieb / Vertrieb"
+      },
+      {
+        "Id": 3,
+        "Text": "Entwickler:in / Projektleitung / Betrieb / Analyst / Security / Anwender:in"
+      },
+	  {
+        "Id": 4,
+        "Text": "Betrieb / Security / Tester:in / Personal / Entwickler:in / Vertrieb"
+      },    
+    ],
+    "CorrectAnswers": [
+    3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+		1,2,4
+    ]
+  },
+  {
+    "Question": "Ein Baustein mit Schnittstellen wird bezeichnet als",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Blackbox"
+      },
+      {
+        "Id": 2,
+        "Text": "Invisiblebox"
+      },
+      {
+        "Id": 3,
+        "Text": "Greybox"
+      },
+	  {
+        "Id": 4,
+        "Text": "Darkbox"
+      },    
+    ],
+    "CorrectAnswers": [
+    1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+		2,3,4
+    ]
+  },
+ ]
