@@ -452,4 +452,183 @@
 		2,3,4
     ]
   },
+  {
+    "Question": "Wann ist eher ein Top-Down Vorgehen beim Architekturentwurf sinnvoll und in welchen Fällen ein Bottom-Up Vorgehen?",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Beginn mit der Problemstellung"
+      },
+      {
+        "Id": 2,
+        "Text": "Zerlegung in immer weitere Teilprobleme"
+      },
+      {
+        "Id": 3,
+        "Text": "Ergebnisse liegen sehr spät vor "
+      },
+	  {
+        "Id": 4,
+        "Text": "Geringes Risiko ungeeignete Ergebnisse zu erzeugen"
+      },    
+	  {
+        "Id": 5,
+        "Text": "Beginn mit der konkreten Maschine / Lösung"
+      },
+      {
+        "Id": 6,
+        "Text": "Aufbau abstrakter Bausteine auf der vorhandenen Basis"
+      },
+      {
+        "Id": 7,
+        "Text": "Sehr schnelle Ergebnisse"
+      },
+	  {
+        "Id": 8,
+        "Text": "Teilergebnisse können ungeeignet zur weiteren Verwendung sein"
+      },    
+    ],
+    "CorrectAnswers": [
+    1,2,3,4
+    ],
+    "Points": 4,
+    "IncorrectAnswers": [
+		5,6,7,8
+    ]
+  }, 
+  {
+    "Question": "Wie kann lose Kopplung in einer Programmiersprache wie Javaerzielt werden?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Factory"
+      },
+      {
+        "Id": 2,
+        "Text": "Strategy"
+      },
+      {
+        "Id": 3,
+        "Text": "Dependency Injection"
+      },
+	  {
+        "Id": 4,
+        "Text": "Inversion of Control"
+      },    
+	 
+    ],
+    "CorrectAnswers": [
+    1,2,3,4
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+	
+    ]
+  }, 
+  {
+    "Question": "Welche Services sind am engsten gekoppelt:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Synchrone Aufrufe"
+      },
+      {
+        "Id": 2,
+        "Text": "Asynchrone Aufrufe"
+      },
+      {
+        "Id": 3,
+        "Text": "Die Kopplung ist unabhängig von der Art des Aufrufs"
+      }, 
+    ],
+    "CorrectAnswers": [
+    1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	2,3
+    ]
+  }, 
+  {
+    "Question": "Sind folgende aussagen Wahl oder Falsch?",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Code-Duplizierung ist ein Zeichen schwacher Kohäsion."
+      },
+      {
+        "Id": 2,
+        "Text": "Das \"Law of Demeter\" hilft die Kopplung zwischen Klassen zureduzieren."
+      },     
+	  {
+        "Id": 3,
+        "Text": "Mediator ist ein Strukturmuster."
+      },   
+    ],
+    "CorrectAnswers": [
+    1,2
+    ],
+    "Points": 3,
+    "IncorrectAnswers": [
+	3
+    ]
+  }, 
+  {
+    "Question": "Was beinhaltet die Abkürzung SOLID",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Single Responsibility Principle (SRP), Open Closed Principle(OCP), Liskov Substitution Principle (LSP), Interface Segregation Principle (ISP), Dependency Inversion Principle (DIP)"
+      },
+      {
+        "Id": 2,
+        "Text": "Single Responsibility Principle (SRP), Open Closed Principle (OCP), Lose coupling (LC), Interface Segregation Principle (ISP), Dependency Inversion Principle (DIP)"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Single Responsibility Principle (SRP), Open Closed Principle(OCP), Liskov Substitution Principle (LSP), Interface Segregation Principle (ISP), Don't Repeat Yourself (DRY)"
+      },   
+	  {
+        "Id": 4,
+        "Text": "Single Responsibility Principle (SRP), Open Closed Principle (OCP), Lose coupling (LC), Interface Segregation Principle (ISP), Don't Repeat Yourself (DRY)"
+      },   
+    ],
+    "CorrectAnswers": [
+    1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	2,3,4
+    ]
+  },
+  {
+    "Question": "Bei folgende drei Mustern handelt es sich um Strukturmuster:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Adapter, Fassade, Proxy"
+      },
+      {
+        "Id": 2,
+        "Text": "Fassade, Observer, Adapter"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Adapter, Mediator, Fassade"
+      },    
+    ],
+    "CorrectAnswers": [
+    1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	2,3
+    ]
+  },
  ]
