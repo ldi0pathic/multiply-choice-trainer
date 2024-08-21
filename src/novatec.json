@@ -631,4 +631,599 @@
 	2,3
     ]
   },
+  {
+    "Question": "Wer ist kein Stakeholder der Architekturdokumentation:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Entwickler"
+      },
+      {
+        "Id": 2,
+        "Text": "Auftraggeber"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Endbenutzer"
+      },    
+	  {
+        "Id": 4,
+        "Text": "Betrieb"
+      },    
+    ],
+    "CorrectAnswers": [
+    3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	1,2,4
+    ]
+  },
+  {
+    "Question": "Welches ist kein gültiges UML-Diagramm:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Paketdiagramm"
+      },
+      {
+        "Id": 2,
+        "Text": "Verteilungsdiagramm"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Prozessdiagramm"
+      },    
+	  {
+        "Id": 4,
+        "Text": "Anwendungsfalldiagramm"
+      },    
+    ],
+    "CorrectAnswers": [
+    3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	1,2,4
+    ]
+  }, 
+  {
+    "Question": "Wer ist kein Stakeholder der Kontextsicht:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Unternehmensarchitekt"
+      },
+      {
+        "Id": 2,
+        "Text": "Auftraggeber"
+      },   
+	  {
+        "Id": 3,
+        "Text": "UI-Experte"
+      },    
+	  {
+        "Id": 4,
+        "Text": "Betrieb"
+      },   
+	  {
+        "Id": 5,
+        "Text": "Keine der genannten Rollen"
+      },    
+    ],
+    "CorrectAnswers": [
+    3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	1,2,4,5
+    ]
+  }, 
+  {
+    "Question": "Wer ist kein Stakeholder der Bausteinsicht:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Unternehmensarchitekt"
+      },
+      {
+        "Id": 2,
+        "Text": "Projektleiter"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Entwickler"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Keine der genannten Rollen"
+      },    
+    ],
+    "CorrectAnswers": [
+    1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	2,3,4
+    ]
+  },
+  {
+    "Question": "Welche Informationen sich nicht Teil der Bausteinsicht:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Interner Aufbau der Bausteine"
+      },
+      {
+        "Id": 2,
+        "Text": "Schnittstellen"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Entwurfsentscheidungen"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Platzierung der Bausteine innerhalb der Infrastruktur"
+      },    
+    ],
+    "CorrectAnswers": [
+    4
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	1,2,3
+    ]
+  },
+  {
+    "Question": "Wer ist kein Stakeholder der Laufzeitsicht:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Tester"
+      },
+      {
+        "Id": 2,
+        "Text": "Projektleiter"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Entwickler"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Keine der genannten Rollen"
+      },    
+    ],
+    "CorrectAnswers": [
+    2
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	1,3,4
+    ]
+  }, 
+  {
+    "Question": "Welche der folgenden Elemente sollte eine Schablone zur Schnittstellenbeschreibung enthalten:",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Interaktionen"
+      },
+      {
+        "Id": 2,
+        "Text": "Qualitätsmerkmale"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Entwurfsentscheidungen"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Fehlerbehandlung"
+      },     
+	  {
+        "Id": 5,
+        "Text": "Datentypen"
+      },    
+    ],
+    "CorrectAnswers": [
+    1,2,3,4
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	
+    ]
+  },
+  {
+    "Question": "Wer ist kein Stakeholder der Verteilungssicht:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Tester"
+      },
+      {
+        "Id": 2,
+        "Text": "Unternehmensarchitekt"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Betrieb"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Entwickler"
+      },     
+	  {
+        "Id": 5,
+        "Text": "Keine der genannten Rollen"
+      },    
+    ],
+    "CorrectAnswers": [
+    1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	2,3,4
+    ]
+  },
+  {
+    "Question": "Welches sind keine relevanten Fragestellungen im Hinblick auf eine Architekturentscheidung:",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Auswahl des UI-Frameworks"
+      },
+      {
+        "Id": 2,
+        "Text": "Auswahl der Methodik für den Softwareentwicklungsprozess (agil versus iterativ / inkrementell)"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Auswahl der Programmiersprache"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Auswahl der Betriebsform (on-premise versus Cloud-basiert)"
+      },      
+    ],
+    "CorrectAnswers": [
+    2
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	1,3,4
+    ]
+  },
+  {
+    "Question": "Welche Qualitätsmerkmale gehören zu DIN/ISO IEC 25010",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Sicherheit, Kompatibilität, Benutzbarkeit, Zuverlässigkeit,Übertragbarkeit, Effizienz, Änderbarkeit, Funktionalität"
+      },
+      {
+        "Id": 2,
+        "Text": "Benutzbarkeit, Zuverlässigkeit, Übertragbarkeit, Effizienz, Änderbarkeit, Funktionalität, Skalierbarkeit, Testbarkeit"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Zuverlässigkeit, Übertragbarkeit, Effizienz, Änderbarkeit, Funktionalität, Sicherheit, Skalierbarkeit, Benutzbarkeit"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Funktionalität, Benutzbarkeit, Nachvollziehbarkeit,Zuverlässigkeit, Performance,"
+      },      
+    ],
+    "CorrectAnswers": [
+    1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	2,3,4
+    ]
+  },
+  {
+    "Question": "Welche Aussage bzgl. Qualitätsmerkmalen sind wahr",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Qualitätsmerkmale haben keine Wechselwirkung"
+      },
+      {
+        "Id": 2,
+        "Text": "Qualitätsmerkmale beeinflussen sich ausschließlich negativ"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Qualitätsmerkmale können sich positiv und negativ beeinflussen"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Qualitätsmerkmale können sich in der Theorie beeinflussen, in der Praxis haben Systeme jedoch ein Ziel, sodass automatisch klar ist welche Merkmale berücksichtigt priorisiert berücksichtigt werden müssen."
+      },      
+    ],
+    "CorrectAnswers": [
+    3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	1, 2, 4
+    ]
+  }, 
+  {
+    "Question": "Welches sind mögliche Maßnahmen zur Effizienzsteigerung?(4 Antworten)",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Einführung von Abstraktionsstufen"
+      },
+      {
+        "Id": 2,
+        "Text": "Erhöhung der Hardwareleistung"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Verwendung von Skriptsprachen"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Verwendung von Hardware-nahen Sprachen"
+      },   
+	  {
+        "Id": 5,
+        "Text": "Einführung von Datenredundanzen"
+      },   
+	  {
+        "Id": 6,
+        "Text": "Implementierung von Prototypen"
+      },    
+	  {
+        "Id": 7,
+        "Text": "Verteilung der Systemkomponenten"
+      },     
+	  {
+        "Id": 8,
+        "Text": "Einsatz des Proxy-Pattern"
+      },      
+    ],
+    "CorrectAnswers": [
+    2,4,5,8
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+	1,3,6,7
+    ]
+  },
+  {
+    "Question": "Welches sind typische Konflikte zwischen Qualitätsmerkmalen? (2 Antworten)",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Verständlichkeit vs. Wartbarkeit"
+      },
+      {
+        "Id": 2,
+        "Text": "Wartbarkeit vs. Effizienz"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Benutzbarkeit vs. Sicherheit"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Flexibilität vs. Testbarkeit"
+      },   
+	  {
+        "Id": 5,
+        "Text": "Analysierbarkeit vs. Wiederherstellbarkeit"
+      },      
+    ],
+    "CorrectAnswers": [
+    2,3
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+	1,4,5
+    ]
+  }, 
+  {
+    "Question": "Welches sind die Phasen von ATAM?",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Plan / Estimate / Evaluate / Communicate"
+      },
+      {
+        "Id": 2,
+        "Text": "Analyse / Bewerten / Verbessern / Nutzerkommunikation"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Kick-off / Stakeholder / Abschluss / Bewerten"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Bewerten / Kick-off / Stakeholder / Verbessern"
+      },   
+	  {
+        "Id": 5,
+        "Text": "Aim / Plan / Build / Check"
+      },      
+    ],
+    "CorrectAnswers": [
+    3
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	1,2,4,5
+    ]
+  }, 
+  {
+    "Question": "Welche Aussagen bzgl. Qualitätsszenarien sind wahr? (2 Antworten)",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Anwendungsfallszenario / Stressszenario / Änderungsszenario"
+      },
+      {
+        "Id": 2,
+        "Text": "Anwendungsfallszenario / Grenzszenario / Wachstumszenario"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Grenzszenario / Flexibilitätszenario / Eigenschaftszenario"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Gebotszenario / Verbotszenario / Elementszenario"
+      },   
+	  {
+        "Id": 5,
+        "Text": "Userszenario / Testszenario / Betriebszenario "
+      },      
+    ],
+    "CorrectAnswers": [
+    1,2
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+	3,4,5
+    ]
+  }, 
+  {
+    "Question": "Quantitative Bewertung (2 Antworten)",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Bewertet die Qualitätseigenschaft eines Systems anhand Szenarien"
+      },
+      {
+        "Id": 2,
+        "Text": "Besteht aus statischer Codeanalyse"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Erfasst Metriken"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Prüft Architekturregeln"
+      },   
+	  {
+        "Id": 5,
+        "Text": "Bewertet die fachliche Systemfunktionalität"
+      },      
+    ],
+    "CorrectAnswers": [
+    2,3
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+	1,4,5
+    ]
+  },
+  {
+    "Question": "Zyklomatische Komplexität",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Beschreibt eine indirekte Abhängigkeit eines Elements zu sich selbst über beliebige viele andere Elemente"
+      },
+      {
+        "Id": 2,
+        "Text": "Beschreibt die Anzahl der Pfade durch eine Klasse"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Ist ein Idikator für Komplexität ermittelt anhand der Größe des Elements, wie z.B. die Anzahl der Methoden oder die Azahl der Codezeilen"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Beschreibt die Ein- und Ausgehender Beziehungen eines Elements"
+      },         
+    ],
+    "CorrectAnswers": [
+    2
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	1,3,4,5
+    ]
+  },
+  {
+    "Question": "Hohe zyklomatische Komplexität ist negativ zu bewerten, da dies ein Anzeichen für (2 Antworten)",
+    "Type": "P",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "hohe Testaufwände ist"
+      },
+      {
+        "Id": 2,
+        "Text": "nicht optimale Speicherausnutzung ist"
+      },   
+	  {
+        "Id": 3,
+        "Text": "ein nicht-benutzerunfreundliches Webdesign ist"
+      },      
+	  {
+        "Id": 4,
+        "Text": "komplizierten und schlecht wartbaren Code ist"
+      },         
+    ],
+    "CorrectAnswers": [
+    1,4
+    ],
+    "Points": 2,
+    "IncorrectAnswers": [
+	2,3
+    ]
+  }, 
+  {
+    "Question": "Eine Testabdeckung ist positiv zu bewerten,",
+    "Type": "A",
+    "Options": [
+      {
+        "Id": 1,
+        "Text": "Wenn sie möglichst hoch ist, da dies die Robustheit des Systems erhöht"
+      },
+      {
+        "Id": 2,
+        "Text": "Wenn sie möglichst niedrig ist, da dies eine geringe Fehlerdichte beweist"
+      },   
+	  {
+        "Id": 3,
+        "Text": "Wenn sie möglichst hoch ist, da dies die Ausgewogenheit zwischen den Lines of Code des Testfalls und des produktiven Codes zeigt"
+      },      
+	  {
+        "Id": 4,
+        "Text": "Wenn sie 1 ist, da dies ein fehlerfreies System garantiert"
+      },         
+    ],
+    "CorrectAnswers": [
+    1
+    ],
+    "Points": 1,
+    "IncorrectAnswers": [
+	2,3,4
+    ]
+  },
  ]
